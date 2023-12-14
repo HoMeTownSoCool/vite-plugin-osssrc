@@ -1,7 +1,7 @@
 {
   "name": "vite-plugin-osssrc",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "packageManager": "pnpm@8.11.0",
   "description": "一个Vite插件，用于将项目中某元素的src属性中的资源替换成oss链接资源",
   "author": "Anthony Fu <anthonyfu117@hotmail.com>",
