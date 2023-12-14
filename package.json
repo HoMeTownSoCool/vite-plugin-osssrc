@@ -13,7 +13,12 @@
     "url": "git+https://github.com/HoMeTownSoCool/vite-plugin-osssrc.git"
   },
   "bugs": "https://github.com/HoMeTownSoCool/vite-plugin-osssrc/issues",
-  "keywords": [],
+  "keywords": [
+    "vite-plugin",
+    "oss",
+    "src",
+    "img"
+  ],
   "sideEffects": false,
   "exports": {
     ".": {
@@ -40,12 +45,17 @@
     "build": "unbuild",
     "dev": "unbuild --stub",
     "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "prepublishOnly": "nr build",
     "release": "bumpp && npm publish",
     "start": "esno src/index.ts",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
     "prepare": "simple-git-hooks"
+  },
+  "peerDependencies": {
+    "vite": ">=2.0.0",
+    "vue": "^3.0.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.4.0",
