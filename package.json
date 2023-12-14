@@ -1,18 +1,18 @@
 {
-  "name": "pkg-placeholder",
+  "name": "vite-plugin-osssrc",
   "type": "module",
   "version": "0.0.0",
   "packageManager": "pnpm@8.11.0",
-  "description": "_description_",
+  "description": "一个Vite插件，用于将项目中某元素的src属性中的资源替换成oss链接资源",
   "author": "Anthony Fu <anthonyfu117@hotmail.com>",
   "license": "MIT",
-  "funding": "https://github.com/sponsors/antfu",
-  "homepage": "https://github.com/antfu/pkg-placeholder#readme",
+  "funding": "https://github.com/sponsors/HoMeTownSoCool",
+  "homepage": "https://github.com/HoMeTownSoCool/vite-plugin-osssrc#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antfu/pkg-placeholder.git"
+    "url": "git+https://github.com/HoMeTownSoCool/vite-plugin-osssrc.git"
   },
-  "bugs": "https://github.com/antfu/pkg-placeholder/issues",
+  "bugs": "https://github.com/HoMeTownSoCool/vite-plugin-osssrc/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {
